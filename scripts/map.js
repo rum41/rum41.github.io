@@ -5,7 +5,7 @@ const map = L.map('map').setView([23.150212463433, 120.17831077107], 100);
 const baseEMAPHighDPI = L.tileLayer('https://wmts.nlsc.gov.tw/wmts/EMAP96/default/GoogleMapsCompatible/{z}/{y}/{x}', {
   maxNativeZoom: 20,
   maxZoom: 20,
-  minZoom: 6
+  minZoom: 5
 });
 baseEMAPHighDPI.addTo(map);
 
