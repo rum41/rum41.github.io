@@ -30,7 +30,32 @@
     
 
     <!-- 主視覺區塊 -->
+    <section class="bg-light text-center py-5">
+    <div class="container">
+        <h1 class="display-5 fw-bold">歡迎來到我的 RWD 範例網站</h1>
+        <p class="lead text-muted">這是一個使用 Bootstrap 建立的簡單響應式頁面。</p>
+        <button type="button" class="btn btn-primary btn-lg mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal">
+            了解更多
+        </button>
+    </div>
+</section>
 
+<div class="modal" id="exampleModal" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">了解</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <h1>更多。</h1>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
     <!-- 三欄內容區 -->
     
@@ -45,3 +70,4 @@
 </body>
 
 </html>
+
